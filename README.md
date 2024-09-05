@@ -36,13 +36,19 @@ python -m groc_edit.main
 
 3. 처리된 이미지는 `output_images` 폴더에 저장됩니다.
 
-## 테스트
+## 처리 예시
 
-테스트를 실행하려면 다음 명령어를 사용하세요:
+**원본**
 
-```sh
-python -m unittest discover tests
-```
+![](input_images/kentaro.jpeg)
+
+**Step 1. Resize and Crop**
+
+![](output_images/step1_resize_crop/resized_kentaro.jpeg)
+
+**Step 2. Remove Background**
+
+![](output_images/step2_remove_bg/transparent_kentaro.png)
 
 ## 라이선스
 

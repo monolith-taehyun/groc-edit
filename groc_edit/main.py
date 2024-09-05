@@ -30,7 +30,7 @@ def process_images(input_folder, output_folder, target_size=(300, 400), remove_b
             
             processed = crop_and_resize(image, face, target_size)
 
-            output_path = os.path.join(output_folder, "step1_resize_crop", f"processed_{filename}")
+            output_path = os.path.join(output_folder, "step1_resize_crop", f"resized_{filename}")
             cv2.imwrite(output_path, processed)
             print(f"End Processed: {filename} -> {output_path}")
             
@@ -44,7 +44,7 @@ def process_images(input_folder, output_folder, target_size=(300, 400), remove_b
 
                 filenameonly = get_filename_without_extension(filename)
             
-                output_path = os.path.join(output_folder, "step2_remove_bg", f"processed_{filenameonly}.png")
+                output_path = os.path.join(output_folder, "step2_remove_bg", f"transparent_{filenameonly}.png")
                 cv2.imwrite(output_path, processed)
                 print(f"End Processed: {filename} -> {output_path}")
 

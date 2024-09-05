@@ -10,8 +10,5 @@ __pycache__/
 .vscode/
 .idea/
 
-# Output
-output_images/
-
 # Miscellaneous
 .DS_Store
