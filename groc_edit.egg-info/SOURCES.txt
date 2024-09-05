@@ -1,0 +1,13 @@
+README.md
+setup.py
+groc_edit/__init__.py
+groc_edit/main.py
+groc_edit/utils.py
+groc_edit.egg-info/PKG-INFO
+groc_edit.egg-info/SOURCES.txt
+groc_edit.egg-info/dependency_links.txt
+groc_edit.egg-info/requires.txt
+groc_edit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
+tests/test_utils.py

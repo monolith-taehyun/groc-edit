@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Output
+output_images/
+
+# Miscellaneous
+.DS_Store
