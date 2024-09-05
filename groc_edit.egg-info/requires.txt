@@ -1,2 +1,5 @@
 opencv-python>=4.5.5.64
 dlib==19.24.2
+numpy==1.23.5
+rembg==2.0.30
+Pillow==9.3.0
