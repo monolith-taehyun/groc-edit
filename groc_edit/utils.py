@@ -1,6 +1,7 @@
 import cv2
 import dlib
 import numpy as np
+import os
 
 def detect_face(image):
     if image.dtype != np.uint8:
@@ -44,3 +45,8 @@ def crop_and_resize(image, face, target_size=(300, 400)):
     final = cv2.resize(cropped, target_size)
     
     return final
+
+def get_filename_without_extension(filename):
+    head, tail = os.path.split(filename)
+    base, ext = os.path.splitext(tail)
+    return base
