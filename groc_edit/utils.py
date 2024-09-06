@@ -7,9 +7,9 @@ def detect_face(image):
     if image.dtype != np.uint8:
         raise ValueError("Image must be 8-bit")
     
-    if len(image.shape) == 2:  # Grayscale
+    if len(image.shape) == 2:
         pass
-    elif len(image.shape) == 3 and image.shape[2] == 3:  # Color
+    elif len(image.shape) == 3 and image.shape[2] == 3:
         if image.shape[2] == 3:
             image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     else:

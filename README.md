@@ -42,18 +42,14 @@ python -m groc_edit.main
 
 ![](input_images/kentaro.jpeg)
 
-**Step 1. Resize and Crop**
+**Step 1. 리사이즈 & 크롭**
 
 ![](output_images/step1_resize_crop/resized_kentaro.jpeg)
 
-**Step 2. Remove Background**
+**Step 2. 배경 제거**
 
 ![](output_images/step2_remove_bg/transparent_kentaro.png)
 
-**Step 3. Merge Profile background**
+**Step 3. 프로필 배경 합성**
 
 ![](output_images/step3_merge_bg/merged_transparent_kentaro.png)
-
-## 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 있습니다.
