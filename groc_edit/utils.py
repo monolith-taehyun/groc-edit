@@ -25,7 +25,7 @@ def crop_and_resize(image, face, target_size=(300, 400)):
     face_height = face.bottom() - face.top()
     face_width = face.right() - face.left()
     
-    scale = min(target_size[0] / (face_width * 3), target_size[1] / (face_height * 3))
+    scale = min(target_size[0] / (face_width * 4.1), target_size[1] / (face_height * 4.1))
     
     new_height = int(image.shape[0] * scale)
     new_width = int(image.shape[1] * scale)

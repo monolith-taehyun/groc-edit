@@ -50,6 +50,10 @@ python -m groc_edit.main
 
 ![](output_images/step2_remove_bg/transparent_kentaro.png)
 
+**Step 3. Merge Profile background**
+
+![](output_images/step3_merge_bg/merged_transparent_kentaro.png)
+
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 있습니다.
